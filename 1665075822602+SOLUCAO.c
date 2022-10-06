@@ -3,6 +3,7 @@
 #include <math.h>
 
 /*
+Usuario GitHub: Zhadig
 Nesse algoritmo primeiro exibo as opcoes para o usuario
 Em seguida leio a opcao que ele colocou
 Se for raiz quadrada irei ler apenas um numero,
@@ -47,7 +48,7 @@ int main(){
 	
 	if (operacao==1 || operacao==2 || operacao==3 || operacao==4 || operacao==5){ //Caso tenha resposta
 		printf("\nResposta: %lf\n", resposta);
-	} else { //Caso n„o tenha escolhido nenhuma operacao entre as mostradas
+	} else { //Caso n√£o tenha escolhido nenhuma operacao entre as mostradas
 		printf("Operacao invalida\n");
 	}
 	
